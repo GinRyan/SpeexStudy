@@ -1,0 +1,744 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+A1	math_approx.h	156;"	d
+A2	math_approx.h	157;"	d
+A3	math_approx.h	158;"	d
+ABS	arch.h	81;"	d
+ABS16	arch.h	82;"	d
+ABS32	arch.h	85;"	d
+ADD16	arch.h	180;"	d
+ADD16	fixed_generic.h	61;"	d
+ADD32	arch.h	182;"	d
+ADD32	fixed_generic.h	63;"	d
+ALIGN	stack_alloc.h	91;"	d
+ALIGN	stack_alloc.h	97;"	d
+ALLOC	stack_alloc.h	105;"	d
+ALLOC	stack_alloc.h	108;"	d
+ALLOC	stack_alloc.h	111;"	d
+ANGLE2X	lsp.c	104;"	d	file:
+ANGLE2X	lsp.c	120;"	d	file:
+ARCH_H	arch.h	36;"	d
+BITS_PER_CHAR	arch.h	221;"	d
+BITS_PER_CHAR	arch.h	227;"	d
+BYTES_PER_CHAR	arch.h	220;"	d
+BYTES_PER_CHAR	arch.h	226;"	d
+C0	math_approx.h	137;"	d
+C1	math_approx.h	138;"	d
+C1	math_approx.h	309;"	d
+C2	math_approx.h	139;"	d
+C2	math_approx.h	310;"	d
+C3	math_approx.h	140;"	d
+C3	math_approx.h	311;"	d
+C4	math_approx.h	312;"	d
+CB_SEARCH_H	cb_search.h	36;"	d
+D0	math_approx.h	245;"	d
+D1	math_approx.h	246;"	d
+D2	math_approx.h	247;"	d
+D3	math_approx.h	248;"	d
+DIV32	arch.h	210;"	d
+DIV32	fixed_generic.h	103;"	d
+DIV32_16	arch.h	208;"	d
+DIV32_16	fixed_generic.h	101;"	d
+DecState	nb_celp.h	/^typedef struct DecState {$/;"	s
+DecState	nb_celp.h	/^} DecState;$/;"	t	typeref:struct:DecState
+EXTEND32	arch.h	164;"	d
+EXTEND32	fixed_generic.h	44;"	d
+EXTRACT16	arch.h	163;"	d
+EXTRACT16	fixed_generic.h	43;"	d
+EXTRA_BUFFER	nb_celp.c	103;"	d	file:
+EXTRA_BUFFER	nb_celp.c	105;"	d	file:
+EncState	nb_celp.h	/^typedef struct EncState {$/;"	s
+EncState	nb_celp.h	/^} EncState;$/;"	t	typeref:struct:EncState
+FILTERS_H	filters.h	36;"	d
+FIXED_GENERIC_H	fixed_generic.h	36;"	d
+FREQ_SCALE	lsp.c	101;"	d	file:
+FREQ_SCALE	lsp.c	119;"	d	file:
+GAIN_SCALING	arch.h	104;"	d
+GAIN_SCALING	arch.h	149;"	d
+GAIN_SCALING_1	arch.h	105;"	d
+GAIN_SCALING_1	arch.h	150;"	d
+GAIN_SHIFT	arch.h	110;"	d
+GAMMA_SCALING	arch.h	103;"	d
+GAMMA_SCALING	arch.h	148;"	d
+HIGHPASS_INPUT	filters.h	54;"	d
+HIGHPASS_IRS	filters.h	56;"	d
+HIGHPASS_NARROWBAND	filters.h	52;"	d
+HIGHPASS_OUTPUT	filters.h	55;"	d
+HIGHPASS_WIDEBAND	filters.h	53;"	d
+HTOLS	bits.c	134;"	d	file:
+K1	math_approx.h	183;"	d
+K2	math_approx.h	184;"	d
+K3	math_approx.h	185;"	d
+K4	math_approx.h	186;"	d
+L1	math_approx.h	203;"	d
+L2	math_approx.h	204;"	d
+L3	math_approx.h	205;"	d
+L4	math_approx.h	206;"	d
+LOG2_BITS_PER_CHAR	arch.h	222;"	d
+LOG2_BITS_PER_CHAR	arch.h	228;"	d
+LPC_H	lpc.h	36;"	d
+LPC_SCALING	arch.h	100;"	d
+LPC_SCALING	arch.h	145;"	d
+LPC_SHIFT	arch.h	107;"	d
+LSP_DELTA1	nb_celp.c	86;"	d	file:
+LSP_DELTA1	nb_celp.c	97;"	d	file:
+LSP_DELTA2	nb_celp.c	87;"	d	file:
+LSP_DELTA2	nb_celp.c	98;"	d	file:
+LSP_DIV_1024	quant_lsp.c	56;"	d	file:
+LSP_DIV_1024	quant_lsp.c	66;"	d	file:
+LSP_DIV_256	quant_lsp.c	54;"	d	file:
+LSP_DIV_256	quant_lsp.c	64;"	d	file:
+LSP_DIV_512	quant_lsp.c	55;"	d	file:
+LSP_DIV_512	quant_lsp.c	65;"	d	file:
+LSP_LINEAR	quant_lsp.c	52;"	d	file:
+LSP_LINEAR	quant_lsp.c	61;"	d	file:
+LSP_LINEAR_HIGH	quant_lsp.c	53;"	d	file:
+LSP_LINEAR_HIGH	quant_lsp.c	62;"	d	file:
+LSP_MARGIN	nb_celp.c	85;"	d	file:
+LSP_MARGIN	nb_celp.c	96;"	d	file:
+LSP_PI	quant_lsp.c	57;"	d	file:
+LSP_PI	quant_lsp.c	67;"	d	file:
+LSP_SCALE	quant_lsp.c	63;"	d	file:
+LSP_SCALING	arch.h	102;"	d
+LSP_SCALING	arch.h	147;"	d
+LSP_SHIFT	arch.h	108;"	d
+M1	math_approx.h	274;"	d
+M1	math_approx.h	284;"	d
+M2	math_approx.h	275;"	d
+M2	math_approx.h	285;"	d
+M3	math_approx.h	276;"	d
+M3	math_approx.h	286;"	d
+M4	math_approx.h	277;"	d
+M4	math_approx.h	287;"	d
+MAC16_16	arch.h	186;"	d
+MAC16_16	fixed_generic.h	73;"	d
+MAC16_16_P13	arch.h	199;"	d
+MAC16_16_P13	fixed_generic.h	88;"	d
+MAC16_16_Q11	arch.h	197;"	d
+MAC16_16_Q11	fixed_generic.h	86;"	d
+MAC16_16_Q13	arch.h	198;"	d
+MAC16_16_Q13	fixed_generic.h	87;"	d
+MAC16_32_Q11	arch.h	194;"	d
+MAC16_32_Q11	fixed_generic.h	79;"	d
+MAC16_32_Q15	arch.h	195;"	d
+MAC16_32_Q15	fixed_generic.h	83;"	d
+MATH_APPROX_H	math_approx.h	36;"	d
+MAX16	arch.h	84;"	d
+MAX32	arch.h	87;"	d
+MAX_CHARS_PER_FRAME	bits.c	45;"	d	file:
+MAX_IN_SAMPLES	speex.c	47;"	d	file:
+MAX_LSP_SIZE	quant_lsp.h	41;"	d
+MIN16	arch.h	83;"	d
+MIN32	arch.h	86;"	d
+MIN_ENERGY	vbr.c	45;"	d	file:
+MODES_H	modes.h	37;"	d
+MULT16_16	arch.h	185;"	d
+MULT16_16	fixed_generic.h	71;"	d
+MULT16_16_16	arch.h	184;"	d
+MULT16_16_16	fixed_generic.h	68;"	d
+MULT16_16_P13	arch.h	205;"	d
+MULT16_16_P13	fixed_generic.h	95;"	d
+MULT16_16_P14	arch.h	206;"	d
+MULT16_16_P14	fixed_generic.h	96;"	d
+MULT16_16_P15	arch.h	204;"	d
+MULT16_16_P15	fixed_generic.h	97;"	d
+MULT16_16_Q11_32	arch.h	200;"	d
+MULT16_16_Q11_32	fixed_generic.h	90;"	d
+MULT16_16_Q13	arch.h	201;"	d
+MULT16_16_Q13	fixed_generic.h	91;"	d
+MULT16_16_Q14	arch.h	202;"	d
+MULT16_16_Q14	fixed_generic.h	92;"	d
+MULT16_16_Q15	arch.h	203;"	d
+MULT16_16_Q15	fixed_generic.h	93;"	d
+MULT16_32_P15	arch.h	192;"	d
+MULT16_32_P15	fixed_generic.h	81;"	d
+MULT16_32_Q11	arch.h	188;"	d
+MULT16_32_Q11	fixed_generic.h	78;"	d
+MULT16_32_Q12	fixed_generic.h	74;"	d
+MULT16_32_Q13	arch.h	189;"	d
+MULT16_32_Q13	fixed_generic.h	75;"	d
+MULT16_32_Q14	arch.h	190;"	d
+MULT16_32_Q14	fixed_generic.h	76;"	d
+MULT16_32_Q15	arch.h	191;"	d
+MULT16_32_Q15	fixed_generic.h	82;"	d
+MUL_16_32_R15	fixed_generic.h	99;"	d
+M_PI	lsp.c	92;"	d	file:
+M_PI	math_approx.h	306;"	d
+M_PI	nb_celp.c	58;"	d	file:
+M_PI	quant_lsp.c	41;"	d	file:
+NB_CDBK_SIZE	quant_lsp.h	43;"	d
+NB_CDBK_SIZE_HIGH1	quant_lsp.h	46;"	d
+NB_CDBK_SIZE_HIGH2	quant_lsp.h	47;"	d
+NB_CDBK_SIZE_LOW1	quant_lsp.h	44;"	d
+NB_CDBK_SIZE_LOW2	quant_lsp.h	45;"	d
+NB_CELP_H	nb_celp.h	37;"	d
+NB_DEC_STACK	nb_celp.c	74;"	d	file:
+NB_ENC_STACK	nb_celp.c	70;"	d	file:
+NB_SUBMODES	modes.h	43;"	d
+NB_SUBMODE_BITS	modes.h	44;"	d
+NEG16	arch.h	161;"	d
+NEG16	fixed_generic.h	41;"	d
+NEG32	arch.h	162;"	d
+NEG32	fixed_generic.h	42;"	d
+NOISE_POW	vbr.c	46;"	d	file:
+NULL	lsp.c	96;"	d	file:
+NULL	ltp.c	46;"	d	file:
+NULL	modes.c	50;"	d	file:
+NULL	nb_celp.c	62;"	d	file:
+NULL	speex.c	44;"	d	file:
+OS_SUPPORT_H	os_support.h	35;"	d
+PDIV32	arch.h	211;"	d
+PDIV32	fixed_generic.h	104;"	d
+PDIV32_16	arch.h	209;"	d
+PDIV32_16	fixed_generic.h	102;"	d
+PSHR	arch.h	175;"	d
+PSHR	fixed_generic.h	57;"	d
+PSHR16	arch.h	169;"	d
+PSHR16	fixed_generic.h	49;"	d
+PSHR32	arch.h	170;"	d
+PSHR32	fixed_generic.h	50;"	d
+PUSH	stack_alloc.h	93;"	d
+PUSH	stack_alloc.h	99;"	d
+Q15ONE	arch.h	144;"	d
+Q15ONE	arch.h	98;"	d
+Q15_ONE	arch.h	115;"	d
+Q15_ONE	arch.h	156;"	d
+QCONST16	arch.h	158;"	d
+QCONST16	fixed_generic.h	38;"	d
+QCONST32	arch.h	159;"	d
+QCONST32	fixed_generic.h	39;"	d
+QIMP	lsp.c	459;"	d	file:
+QUANT_LSP_H	quant_lsp.h	36;"	d
+SATURATE	arch.h	178;"	d
+SATURATE	fixed_generic.h	58;"	d
+SATURATE16	arch.h	172;"	d
+SATURATE16	fixed_generic.h	52;"	d
+SATURATE32	arch.h	173;"	d
+SATURATE32	fixed_generic.h	53;"	d
+SBDecState	sb_celp.h	/^typedef struct SBDecState {$/;"	s
+SBDecState	sb_celp.h	/^} SBDecState;$/;"	t	typeref:struct:SBDecState
+SBEncState	sb_celp.h	/^typedef struct SBEncState {$/;"	s
+SBEncState	sb_celp.h	/^} SBEncState;$/;"	t	typeref:struct:SBEncState
+SB_CELP_H	sb_celp.h	37;"	d
+SB_SUBMODES	modes.h	46;"	d
+SB_SUBMODE_BITS	modes.h	47;"	d
+SHL	arch.h	177;"	d
+SHL	fixed_generic.h	56;"	d
+SHL16	arch.h	166;"	d
+SHL16	fixed_generic.h	46;"	d
+SHL32	arch.h	168;"	d
+SHL32	fixed_generic.h	48;"	d
+SHR	arch.h	176;"	d
+SHR	fixed_generic.h	55;"	d
+SHR16	arch.h	165;"	d
+SHR16	fixed_generic.h	45;"	d
+SHR32	arch.h	167;"	d
+SHR32	fixed_generic.h	47;"	d
+SIGN_CHANGE	lsp.c	213;"	d	file:
+SIGN_CHANGE	lsp.c	215;"	d	file:
+SIG_SCALING	arch.h	101;"	d
+SIG_SCALING	arch.h	146;"	d
+SIG_SHIFT	arch.h	109;"	d
+SPEEX_COPY	os_support.h	95;"	d
+SPEEX_EXTRA_VERSION	arch.h	42;"	d
+SPEEX_GET_DTX_STATUS	modes.h	57;"	d
+SPEEX_GET_EXC	modes.h	53;"	d
+SPEEX_GET_INNOV	modes.h	55;"	d
+SPEEX_GET_PI_GAIN	modes.h	51;"	d
+SPEEX_GET_STACK	modes.h	64;"	d
+SPEEX_MAJOR_VERSION	arch.h	39;"	d
+SPEEX_MEMSET	os_support.h	106;"	d
+SPEEX_MICRO_VERSION	arch.h	41;"	d
+SPEEX_MINOR_VERSION	arch.h	40;"	d
+SPEEX_MOVE	os_support.h	101;"	d
+SPEEX_SET_INNOVATION_SAVE	modes.h	59;"	d
+SPEEX_SET_WIDEBAND	modes.h	61;"	d
+SPEEX_VERSION	arch.h	43;"	d
+SPX_PI_2	math_approx.h	315;"	d
+STACK_ALLOC_H	stack_alloc.h	36;"	d
+SUB16	arch.h	181;"	d
+SUB16	fixed_generic.h	62;"	d
+SUB32	arch.h	183;"	d
+SUB32	fixed_generic.h	64;"	d
+SUBMODE	nb_celp.c	65;"	d	file:
+SpeexNBMode	modes.h	/^typedef struct SpeexNBMode {$/;"	s
+SpeexNBMode	modes.h	/^} SpeexNBMode;$/;"	t	typeref:struct:SpeexNBMode
+SpeexSBMode	modes.h	/^typedef struct SpeexSBMode {$/;"	s
+SpeexSBMode	modes.h	/^} SpeexSBMode;$/;"	t	typeref:struct:SpeexSBMode
+SpeexSubmode	modes.h	/^typedef struct SpeexSubmode {$/;"	s
+SpeexSubmode	modes.h	/^} SpeexSubmode;$/;"	t	typeref:struct:SpeexSubmode
+VARDECL	stack_alloc.h	104;"	d
+VARDECL	stack_alloc.h	107;"	d
+VARDECL	stack_alloc.h	110;"	d
+VBRState	vbr.h	/^typedef struct VBRState {$/;"	s
+VBRState	vbr.h	/^} VBRState;$/;"	t	typeref:struct:VBRState
+VBR_H	vbr.h	38;"	d
+VBR_MEMORY_SIZE	vbr.h	42;"	d
+VERY_LARGE16	arch.h	114;"	d
+VERY_LARGE16	arch.h	155;"	d
+VERY_LARGE32	arch.h	113;"	d
+VERY_LARGE32	arch.h	154;"	d
+VERY_SMALL	arch.h	112;"	d
+VERY_SMALL	arch.h	153;"	d
+VQ_H	vq.h	36;"	d
+VSHR32	arch.h	171;"	d
+VSHR32	fixed_generic.h	51;"	d
+X2ANGLE	lsp.c	107;"	d	file:
+X2ANGLE	lsp.c	121;"	d	file:
+__AK2LSPD__	lsp.h	52;"	d
+_speex_fatal	os_support.h	/^static inline void _speex_fatal(const char *str, const char *file, int line)$/;"	f
+_speex_putc	os_support.h	/^static inline void _speex_putc(int ch, void *file)$/;"	f
+_spx_autocorr	lpc.c	/^void _spx_autocorr($/;"	f
+_spx_cos_pi_2	math_approx.h	/^static inline spx_word16_t _spx_cos_pi_2(spx_word16_t x)$/;"	f
+_spx_lpc	lpc.c	/^spx_word32_t _spx_lpc($/;"	f
+abr_count	nb_celp.h	/^   float  abr_count;$/;"	m	struct:EncState
+abr_count	sb_celp.h	/^   float  abr_count;$/;"	m	struct:SBEncState
+abr_drift	nb_celp.h	/^   float  abr_drift;$/;"	m	struct:EncState
+abr_drift	sb_celp.h	/^   float  abr_drift;$/;"	m	struct:SBEncState
+abr_drift2	nb_celp.h	/^   float  abr_drift2;$/;"	m	struct:EncState
+abr_drift2	sb_celp.h	/^   float  abr_drift2;$/;"	m	struct:SBEncState
+abr_enabled	nb_celp.h	/^   spx_int32_t abr_enabled;      \/**< ABR setting (in bps), 0 if off *\/$/;"	m	struct:EncState
+abr_enabled	sb_celp.h	/^   spx_int32_t abr_enabled;       \/**< ABR setting (in bps), 0 if off *\/$/;"	m	struct:SBEncState
+accum_sum	vbr.h	/^   float accum_sum;$/;"	m	struct:VBRState
+attenuation	nb_celp.c	/^const spx_word16_t attenuation[10] = {1., 0.961, 0.852, 0.698, 0.527, 0.368, 0.237, 0.141, 0.077, 0.039};$/;"	v
+attenuation	nb_celp.c	/^const spx_word16_t attenuation[10] = {32767, 31483, 27923, 22861, 17278, 12055, 7764, 4616, 2533, 1283};$/;"	v
+average_energy	vbr.h	/^   float average_energy;$/;"	m	struct:VBRState
+bits_per_frame	modes.h	/^   int               bits_per_frame; \/**< Number of bits per frame after encoding*\/$/;"	m	struct:SpeexSubmode
+bounded_pitch	nb_celp.h	/^   int    bounded_pitch;         \/**< Next frame should not rely on previous frames for pitch *\/$/;"	m	struct:EncState
+bw_lpc	filters.c	/^void bw_lpc(spx_word16_t gamma, const spx_coef_t *lpc_in, spx_coef_t *lpc_out, int order)$/;"	f
+cdbk_nb	lsp_tables_nb.c	/^const signed char cdbk_nb[640]={$/;"	v
+cdbk_nb_high1	lsp_tables_nb.c	/^const signed char cdbk_nb_high1[320]={$/;"	v
+cdbk_nb_high2	lsp_tables_nb.c	/^const signed char cdbk_nb_high2[320]={$/;"	v
+cdbk_nb_low1	lsp_tables_nb.c	/^const signed char cdbk_nb_low1[320]={$/;"	v
+cdbk_nb_low2	lsp_tables_nb.c	/^const signed char cdbk_nb_low2[320]={$/;"	v
+cheb_poly_eva	lsp.c	/^static float cheb_poly_eva(spx_word32_t *coef, spx_word16_t x, int m, char *stack)$/;"	f	file:
+cheb_poly_eva	lsp.c	/^static inline spx_word32_t cheb_poly_eva($/;"	f	file:
+comb_gain	modes.h	/^   spx_word16_t      comb_gain;  \/**< Gain of enhancer comb filter *\/$/;"	m	struct:SpeexSubmode
+complexity	nb_celp.h	/^   int    complexity;            \/**< Complexity setting (0-10 from least complex to most complex) *\/$/;"	m	struct:EncState
+complexity	sb_celp.h	/^   int    complexity;$/;"	m	struct:SBEncState
+compute_impulse_response	filters.c	/^void compute_impulse_response(const spx_coef_t *ak, const spx_coef_t *awk1, const spx_coef_t *awk2, spx_word16_t *y, int N, int ord, char *stack)$/;"	f
+compute_pitch_error	ltp.c	/^static inline spx_word32_t compute_pitch_error(spx_word16_t *C, spx_word16_t *g, spx_word16_t pitch_control)$/;"	f	file:
+compute_quant_weights	quant_lsp.c	/^static void compute_quant_weights(spx_lsp_t *qlsp, spx_word16_t *quant_weight, int order)$/;"	f	file:
+compute_rms	filters.c	/^spx_word16_t compute_rms(const spx_sig_t *x, int len)$/;"	f
+compute_rms16	filters.c	/^spx_word16_t compute_rms16(const spx_word16_t *x, int len)$/;"	f
+compute_weighted_codebook	cb_search.c	/^static void compute_weighted_codebook(const signed char *shape_cb, const spx_word16_t *r, spx_word16_t *resp, spx_word16_t *resp2, spx_word32_t *E, int shape_cb_size, int subvect_size, char *stack)$/;"	f	file:
+consec_noise	vbr.h	/^   int   consec_noise;$/;"	m	struct:VBRState
+count_lost	nb_celp.h	/^   int    count_lost;           \/**< Was the last frame lost? *\/$/;"	m	struct:DecState
+cumul_gain	nb_celp.h	/^   spx_word32_t cumul_gain;      \/**< Product of previously used pitch gains (Q10) *\/$/;"	m	struct:EncState
+curve	nb_celp.h	/^   float *curve;$/;"	m	struct:EncState
+defaultSubmode	modes.h	/^   int     defaultSubmode; \/**< Default sub-mode to use when encoding *\/$/;"	m	struct:SpeexNBMode
+defaultSubmode	modes.h	/^   int     defaultSubmode; \/**< Default sub-mode to use when encoding *\/$/;"	m	struct:SpeexSBMode
+double_codebook	modes.h	/^   int     double_codebook;    \/**< Apply innovation quantization twice for higher quality (and higher bit-rate)*\/$/;"	m	struct:SpeexSubmode
+dtx_count	nb_celp.h	/^   int    dtx_count;             \/**< Number of consecutive DTX frames *\/$/;"	m	struct:EncState
+dtx_enabled	nb_celp.h	/^   int    dtx_enabled;           \/**< 1 for enabling DTX, 0 otherwise *\/$/;"	m	struct:EncState
+dtx_enabled	nb_celp.h	/^   int    dtx_enabled;$/;"	m	struct:DecState
+encode_submode	nb_celp.h	/^   int    encode_submode;$/;"	m	struct:DecState
+encode_submode	nb_celp.h	/^   int    encode_submode;$/;"	m	struct:EncState
+encode_submode	sb_celp.h	/^   int    encode_submode;$/;"	m	struct:SBDecState
+encode_submode	sb_celp.h	/^   int    encode_submode;$/;"	m	struct:SBEncState
+energy_alpha	vbr.h	/^   float energy_alpha;$/;"	m	struct:VBRState
+exc	nb_celp.h	/^   spx_word16_t *exc;            \/**< Start of excitation frame *\/$/;"	m	struct:EncState
+exc	nb_celp.h	/^   spx_word16_t *exc;           \/**< Start of excitation frame *\/$/;"	m	struct:DecState
+excBuf	nb_celp.h	/^   spx_word16_t *excBuf;         \/**< Excitation buffer *\/$/;"	m	struct:EncState
+excBuf	nb_celp.h	/^   spx_word16_t *excBuf;        \/**< Excitation buffer *\/$/;"	m	struct:DecState
+excBuf	sb_celp.h	/^   spx_word16_t *excBuf;$/;"	m	struct:SBDecState
+exc_10_16_table	exc_10_16_table.c	/^const signed char exc_10_16_table[160] = {$/;"	v
+exc_10_32_table	exc_10_32_table.c	/^const signed char exc_10_32_table[320] = {$/;"	v
+exc_20_32_table	exc_20_32_table.c	/^const signed char exc_20_32_table[640] = {$/;"	v
+exc_5_256_table	exc_5_256_table.c	/^const signed char exc_5_256_table[1280] = {$/;"	v
+exc_5_64_table	exc_5_64_table.c	/^const signed char exc_5_64_table[320]={$/;"	v
+exc_8_128_table	exc_8_128_table.c	/^const signed char exc_8_128_table[1024] = {$/;"	v
+exc_gain_quant_scal1	nb_celp.c	/^const float exc_gain_quant_scal1[2]={0.70469f, 1.05127f};$/;"	v
+exc_gain_quant_scal1	nb_celp.c	/^const spx_word16_t exc_gain_quant_scal1[2]={11546, 17224};$/;"	v
+exc_gain_quant_scal1_bound	nb_celp.c	/^const float exc_gain_quant_scal1_bound[1]={0.87798f};$/;"	v
+exc_gain_quant_scal1_bound	nb_celp.c	/^const spx_word16_t exc_gain_quant_scal1_bound[1]={14385};$/;"	v
+exc_gain_quant_scal3	nb_celp.c	/^const float exc_gain_quant_scal3[8]={0.061130f, 0.163546f, 0.310413f, 0.428220f, 0.555887f, 0.719055f, 0.938694f, 1.326874f};$/;"	v
+exc_gain_quant_scal3	nb_celp.c	/^const spx_word16_t exc_gain_quant_scal3[8]={1002, 2680, 5086, 7016, 9108, 11781, 15380, 21740};$/;"	v
+exc_gain_quant_scal3_bound	nb_celp.c	/^const float exc_gain_quant_scal3_bound[7]={0.112338f, 0.236980f, 0.369316f, 0.492054f, 0.637471f, 0.828874f, 1.132784f};$/;"	v
+exc_gain_quant_scal3_bound	nb_celp.c	/^const spx_word16_t exc_gain_quant_scal3_bound[7]={1841, 3883, 6051, 8062, 10444, 13580, 18560};$/;"	v
+exc_rms	sb_celp.h	/^   spx_word16_t *exc_rms;$/;"	m	struct:SBDecState
+exc_rms	sb_celp.h	/^   spx_word16_t *exc_rms;$/;"	m	struct:SBEncState
+filter_mem16	filters.c	/^void filter_mem16(const spx_word16_t *x, const spx_coef_t *num, const spx_coef_t *den, spx_word16_t *y, int N, int ord, spx_mem_t *mem, char *stack)$/;"	f
+fir_mem16	filters.c	/^void fir_mem16(const spx_word16_t *x, const spx_coef_t *num, spx_word16_t *y, int N, int ord, spx_mem_t *mem, char *stack)$/;"	f
+first	nb_celp.h	/^   int    first;                 \/**< Is this the first frame? *\/$/;"	m	struct:EncState
+first	nb_celp.h	/^   int    first;                \/**< Is this the first frame? *\/$/;"	m	struct:DecState
+first	sb_celp.h	/^   int    first;                  \/**< First frame? *\/$/;"	m	struct:SBEncState
+first	sb_celp.h	/^   int    first;$/;"	m	struct:SBDecState
+folding_gain	modes.h	/^   spx_word16_t   folding_gain;$/;"	m	struct:SpeexSBMode
+forced_pitch_gain	modes.h	/^   int     forced_pitch_gain;  \/**< Use the same (forced) pitch gain for all sub-frames *\/$/;"	m	struct:SpeexSubmode
+forced_pitch_quant	ltp.c	/^int forced_pitch_quant($/;"	f
+forced_pitch_unquant	ltp.c	/^void forced_pitch_unquant($/;"	f
+frameSize	modes.h	/^   int     frameSize;      \/**< Size of frames used for encoding *\/$/;"	m	struct:SpeexNBMode
+frameSize	modes.h	/^   int     frameSize;     \/**< Size of frames used for encoding *\/$/;"	m	struct:SpeexSBMode
+frameSize	nb_celp.h	/^   int    frameSize;             \/**< Size of frames *\/$/;"	m	struct:EncState
+frameSize	nb_celp.h	/^   int    frameSize;            \/**< Size of frames *\/$/;"	m	struct:DecState
+frame_size	sb_celp.h	/^   int    frame_size;             \/**< Length of high-band frames*\/$/;"	m	struct:SBEncState
+frame_size	sb_celp.h	/^   int    frame_size;$/;"	m	struct:SBDecState
+full_frame_size	sb_celp.h	/^   int    full_frame_size;        \/**< Length of full-band frames*\/$/;"	m	struct:SBEncState
+full_frame_size	sb_celp.h	/^   int    full_frame_size;$/;"	m	struct:SBDecState
+g0_mem	sb_celp.h	/^   spx_word16_t *g0_mem, *g1_mem;$/;"	m	struct:SBDecState
+g1_mem	sb_celp.h	/^   spx_word16_t *g0_mem, *g1_mem;$/;"	m	struct:SBDecState
+gain_3tap_to_1tap	ltp.h	46;"	d
+gain_3tap_to_1tap	ltp.h	48;"	d
+gain_bits	ltp.h	/^   int     gain_bits;$/;"	m	struct:__anon1
+gain_cdbk	ltp.h	/^   const signed char *gain_cdbk;$/;"	m	struct:__anon1
+gain_cdbk_lbr	gain_table_lbr.c	/^const signed char gain_cdbk_lbr[128] = {$/;"	v
+gain_cdbk_nb	gain_table.c	/^const signed char gain_cdbk_nb[512] = {$/;"	v
+gamma1	modes.h	/^   spx_word16_t gamma1;    \/**< Perceptual filter parameter #1 *\/$/;"	m	struct:SpeexNBMode
+gamma1	modes.h	/^   spx_word16_t gamma1;   \/**< Perceptual filter parameter #1 *\/$/;"	m	struct:SpeexSBMode
+gamma1	nb_celp.h	/^   spx_word16_t  gamma1;         \/**< Perceptual filter: A(z\/gamma1) *\/$/;"	m	struct:EncState
+gamma1	sb_celp.h	/^   spx_word16_t  gamma1;          \/**< Perceptual weighting coef 1 *\/$/;"	m	struct:SBEncState
+gamma2	modes.h	/^   spx_word16_t gamma2;    \/**< Perceptual filter parameter #2 *\/$/;"	m	struct:SpeexNBMode
+gamma2	modes.h	/^   spx_word16_t gamma2;   \/**< Perceptual filter parameter #1 *\/$/;"	m	struct:SpeexSBMode
+gamma2	nb_celp.h	/^   spx_word16_t  gamma2;         \/**< Perceptual filter: A(z\/gamma2) *\/$/;"	m	struct:EncState
+gamma2	sb_celp.h	/^   spx_word16_t  gamma2;          \/**< Perceptual weighting coef 2 *\/$/;"	m	struct:SBEncState
+h0_mem	sb_celp.h	/^   spx_word16_t *h0_mem, *h1_mem;$/;"	m	struct:SBEncState
+h1_mem	sb_celp.h	/^   spx_word16_t *h0_mem, *h1_mem;$/;"	m	struct:SBEncState
+have_sign	cb_search.h	/^   int     have_sign;$/;"	m	struct:split_cb_params
+have_subframe_gain	modes.h	/^   int     have_subframe_gain; \/**< Number of bits to use as sub-frame innovation gain *\/$/;"	m	struct:SpeexSubmode
+high	sb_celp.h	/^   spx_word16_t *high;               \/**< High-band signal (buffer) *\/$/;"	m	struct:SBEncState
+high_lsp_cdbk	high_lsp_tables.c	/^const signed char high_lsp_cdbk[512]={$/;"	v
+high_lsp_cdbk2	high_lsp_tables.c	/^const signed char high_lsp_cdbk2[512]={$/;"	v
+highpass	filters.c	/^void highpass(const spx_word16_t *x, spx_word16_t *y, int len, int filtID, spx_mem_t *mem)$/;"	f
+highpass_enabled	nb_celp.h	/^   int    highpass_enabled;        \/**< Is the input filter enabled *\/$/;"	m	struct:DecState
+highpass_enabled	nb_celp.h	/^   int    highpass_enabled;        \/**< Is the input filter enabled *\/$/;"	m	struct:EncState
+iir_mem16	filters.c	/^void iir_mem16(const spx_word16_t *x, const spx_coef_t *den, spx_word16_t *y, int N, int ord, spx_mem_t *mem, char *stack)$/;"	f
+inner_prod	ltp.c	/^spx_word32_t inner_prod(const spx_word16_t *x, const spx_word16_t *y, int len)$/;"	f
+innov_rms_save	nb_celp.h	/^   spx_word16_t *innov_rms_save; \/**< If non-NULL, innovation RMS is copied here *\/$/;"	m	struct:EncState
+innov_rms_save	sb_celp.h	/^   spx_word16_t *innov_rms_save;         \/**< If non-NULL, innovation is copied here *\/$/;"	m	struct:SBEncState
+innov_save	nb_celp.h	/^   spx_word16_t *innov_save;    \/** If non-NULL, innovation is copied here *\/$/;"	m	struct:DecState
+innov_save	sb_celp.h	/^   spx_word16_t *innov_save;      \/** If non-NULL, innovation is copied here *\/$/;"	m	struct:SBDecState
+innovation_params	modes.h	/^   const void             *innovation_params; \/**< Innovation quantization parameters*\/$/;"	m	struct:SpeexSubmode
+innovation_quant	modes.h	/^   innovation_quant_func innovation_quant; \/**< Innovation quantization *\/$/;"	m	struct:SpeexSubmode
+innovation_quant_func	modes.h	/^typedef void (*innovation_quant_func)(spx_word16_t *, spx_coef_t *, spx_coef_t *, spx_coef_t *, const void *, int, int, $/;"	t
+innovation_unquant	modes.h	/^   innovation_unquant_func innovation_unquant; \/**< Innovation un-quantization *\/$/;"	m	struct:SpeexSubmode
+innovation_unquant_func	modes.h	/^typedef void (*innovation_unquant_func)(spx_sig_t *, const void *, int, SpeexBits*, char *, spx_int32_t *);$/;"	t
+interp_pitch	filters.c	/^int interp_pitch($/;"	f
+interp_qlpc	nb_celp.h	/^   spx_coef_t *interp_qlpc;     \/**< Interpolated quantized LPCs *\/$/;"	m	struct:DecState
+interp_qlpc	sb_celp.h	/^   spx_coef_t *interp_qlpc;       \/**< Interpolated quantized LPCs for current sub-frame *\/$/;"	m	struct:SBEncState
+interp_qlpc	sb_celp.h	/^   spx_coef_t *interp_qlpc;$/;"	m	struct:SBDecState
+isWideband	nb_celp.h	/^   int    isWideband;            \/**< Is this used as part of the embedded wideband codec *\/$/;"	m	struct:DecState
+isWideband	nb_celp.h	/^   int    isWideband;            \/**< Is this used as part of the embedded wideband codec *\/$/;"	m	struct:EncState
+lagWindow	nb_celp.h	/^   const spx_word16_t *lagWindow;      \/**< Window applied to auto-correlation *\/$/;"	m	struct:EncState
+lagWindow	sb_celp.h	/^   const spx_word16_t *lagWindow;       \/**< Auto-correlation window *\/$/;"	m	struct:SBEncState
+lag_window	window.c	/^const spx_word16_t lag_window[11] = {$/;"	v
+last_ener	sb_celp.h	/^   spx_word16_t last_ener;$/;"	m	struct:SBDecState
+last_energy	vbr.h	/^   float last_energy;$/;"	m	struct:VBRState
+last_log_energy	vbr.h	/^   float last_log_energy[VBR_MEMORY_SIZE];$/;"	m	struct:VBRState
+last_ol_gain	nb_celp.h	/^   spx_word16_t  last_ol_gain;  \/**< Open-loop gain for previous frame *\/$/;"	m	struct:DecState
+last_pitch	nb_celp.h	/^   int    last_pitch;           \/**< Pitch of last correctly decoded frame *\/$/;"	m	struct:DecState
+last_pitch_coef	vbr.h	/^   float last_pitch_coef;$/;"	m	struct:VBRState
+last_pitch_gain	nb_celp.h	/^   spx_word16_t  last_pitch_gain; \/**< Pitch gain of last correctly decoded frame *\/$/;"	m	struct:DecState
+last_quality	vbr.h	/^   float last_quality;$/;"	m	struct:VBRState
+lbr_pitch	modes.h	/^   int     lbr_pitch;          \/**< Set to -1 for "normal" modes, otherwise encode pitch using a global pitch and allowing a +- lbr_pitch variation (for low not-rates)*\/$/;"	m	struct:SpeexSubmode
+level	nb_celp.h	/^   spx_word16_t level;$/;"	m	struct:DecState
+low_quality_map	modes.h	/^   int     low_quality_map[11]; \/**< Mode corresponding to each quality setting *\/$/;"	m	struct:SpeexSBMode
+lpcSize	modes.h	/^   int     lpcSize;        \/**< Order of LPC filter *\/$/;"	m	struct:SpeexNBMode
+lpcSize	modes.h	/^   int     lpcSize;       \/**< Order of LPC filter *\/$/;"	m	struct:SpeexSBMode
+lpcSize	nb_celp.h	/^   int    lpcSize;               \/**< LPC order *\/$/;"	m	struct:EncState
+lpcSize	nb_celp.h	/^   int    lpcSize;              \/**< LPC order *\/$/;"	m	struct:DecState
+lpcSize	sb_celp.h	/^   int    lpcSize;                \/**< Order of high-band LPC analysis *\/$/;"	m	struct:SBEncState
+lpcSize	sb_celp.h	/^   int    lpcSize;$/;"	m	struct:SBDecState
+lpc_enh_enabled	nb_celp.h	/^   int    lpc_enh_enabled;      \/**< 1 when LPC enhancer is on, 0 otherwise *\/$/;"	m	struct:DecState
+lpc_enh_enabled	sb_celp.h	/^   int    lpc_enh_enabled;$/;"	m	struct:SBDecState
+lpc_floor	modes.h	/^   spx_word16_t   lpc_floor;      \/**< Noise floor for LPC analysis *\/$/;"	m	struct:SpeexNBMode
+lpc_floor	modes.h	/^   spx_word16_t   lpc_floor;     \/**< Noise floor for LPC analysis *\/$/;"	m	struct:SpeexSBMode
+lpc_floor	nb_celp.h	/^   spx_word16_t  lpc_floor;      \/**< Noise floor multiplier for A[0] in LPC analysis*\/$/;"	m	struct:EncState
+lpc_floor	sb_celp.h	/^   spx_word16_t  lpc_floor;       \/**< Controls LPC analysis noise floor *\/$/;"	m	struct:SBEncState
+lpc_to_lsp	lsp.c	/^int lpc_to_lsp (spx_coef_t *a,int lpcrdr,spx_lsp_t *freq,int nb,spx_word16_t delta, char *stack)$/;"	f
+lpc_window	window.c	/^const spx_word16_t lpc_window[200] = {$/;"	v
+lsp_enforce_margin	lsp.c	/^void lsp_enforce_margin(spx_lsp_t *lsp, int len, spx_word16_t margin)$/;"	f
+lsp_interpolate	lsp.c	/^void lsp_interpolate(spx_lsp_t *old_lsp, spx_lsp_t *new_lsp, spx_lsp_t *interp_lsp, int len, int subframe, int nb_subframes)$/;"	f
+lsp_quant	modes.h	/^   lsp_quant_func    lsp_quant; \/**< LSP quantization function *\/$/;"	m	struct:SpeexSubmode
+lsp_quant	quant_lsp.c	/^static int lsp_quant(spx_word16_t *x, const signed char *cdbk, int nbVec, int nbDim)$/;"	f	file:
+lsp_quant_func	modes.h	/^typedef void (*lsp_quant_func)(spx_lsp_t *, spx_lsp_t *, int, SpeexBits *);$/;"	t
+lsp_quant_high	quant_lsp.c	/^void lsp_quant_high(spx_lsp_t *lsp, spx_lsp_t *qlsp, int order, SpeexBits *bits)$/;"	f
+lsp_quant_lbr	quant_lsp.c	/^void lsp_quant_lbr(spx_lsp_t *lsp, spx_lsp_t *qlsp, int order, SpeexBits *bits)$/;"	f
+lsp_quant_nb	quant_lsp.c	/^void lsp_quant_nb(spx_lsp_t *lsp, spx_lsp_t *qlsp, int order, SpeexBits *bits)$/;"	f
+lsp_to_lpc	lsp.c	/^void lsp_to_lpc(spx_lsp_t *freq,spx_coef_t *ak,int lpcrdr, char *stack)$/;"	f
+lsp_unquant	modes.h	/^   lsp_unquant_func  lsp_unquant; \/**< LSP unquantization function *\/$/;"	m	struct:SpeexSubmode
+lsp_unquant_func	modes.h	/^typedef void (*lsp_unquant_func)(spx_lsp_t *, int, SpeexBits *);$/;"	t
+lsp_unquant_high	quant_lsp.c	/^void lsp_unquant_high(spx_lsp_t *lsp, int order, SpeexBits *bits)$/;"	f
+lsp_unquant_lbr	quant_lsp.c	/^void lsp_unquant_lbr(spx_lsp_t *lsp, int order, SpeexBits *bits)$/;"	f
+lsp_unquant_nb	quant_lsp.c	/^void lsp_unquant_nb(spx_lsp_t *lsp, int order, SpeexBits *bits)$/;"	f
+lsp_weight_quant	quant_lsp.c	/^static int lsp_weight_quant(spx_word16_t *x, spx_word16_t *weight, const signed char *cdbk, int nbVec, int nbDim)$/;"	f	file:
+ltp_params	ltp.h	/^} ltp_params;$/;"	t	typeref:struct:__anon1
+ltp_params	modes.h	/^   const void       *ltp_params; \/**< Pitch parameters (options) *\/$/;"	m	struct:SpeexSubmode
+ltp_params_lbr	modes.c	/^static const ltp_params ltp_params_lbr = {$/;"	v	file:
+ltp_params_med	modes.c	/^static const ltp_params ltp_params_med = {$/;"	v	file:
+ltp_params_nb	modes.c	/^static const ltp_params ltp_params_nb = {$/;"	v	file:
+ltp_params_vlbr	modes.c	/^static const ltp_params ltp_params_vlbr = {$/;"	v	file:
+ltp_quant	modes.h	/^   ltp_quant_func    ltp_quant; \/**< Long-term predictor (pitch) quantizer *\/$/;"	m	struct:SpeexSubmode
+ltp_quant_func	modes.h	/^typedef int (*ltp_quant_func)(spx_word16_t *, spx_word16_t *, spx_coef_t *, spx_coef_t *, $/;"	t
+ltp_unquant	modes.h	/^   ltp_unquant_func  ltp_unquant; \/**< Long-term predictor (pitch) un-quantizer *\/$/;"	m	struct:SpeexSubmode
+ltp_unquant_func	modes.h	/^typedef void (*ltp_unquant_func)(spx_word16_t *, spx_word32_t *, int, int, spx_word16_t, const void *, int, int *,$/;"	t
+max_level	nb_celp.h	/^   spx_word16_t max_level;$/;"	m	struct:DecState
+max_pitch	nb_celp.h	/^   int    max_pitch;             \/**< Maximum pitch value allowed *\/$/;"	m	struct:EncState
+max_pitch	nb_celp.h	/^   int    max_pitch;            \/**< Maximum pitch value allowed *\/$/;"	m	struct:DecState
+median3	nb_celp.c	1011;"	d	file:
+mem_exc	nb_celp.h	/^   spx_mem_t *mem_exc;           \/**< Filter memory for excitation (whole frame) *\/$/;"	m	struct:EncState
+mem_exc2	nb_celp.h	/^   spx_mem_t *mem_exc2;          \/**< Filter memory for excitation (whole frame) *\/$/;"	m	struct:EncState
+mem_hp	nb_celp.h	/^   spx_mem_t mem_hp[2];          \/**< High-pass filter memory *\/$/;"	m	struct:EncState
+mem_hp	nb_celp.h	/^   spx_mem_t mem_hp[2];         \/**< High-pass filter memory *\/$/;"	m	struct:DecState
+mem_sp	nb_celp.h	/^   spx_mem_t *mem_sp;            \/**< Filter memory for signal synthesis *\/$/;"	m	struct:EncState
+mem_sp	nb_celp.h	/^   spx_mem_t *mem_sp;           \/**< Filter memory for synthesis signal *\/$/;"	m	struct:DecState
+mem_sp	sb_celp.h	/^   spx_mem_t *mem_sp;             \/**< Synthesis signal memory *\/$/;"	m	struct:SBEncState
+mem_sp	sb_celp.h	/^   spx_mem_t *mem_sp;$/;"	m	struct:SBDecState
+mem_sp2	sb_celp.h	/^   spx_mem_t *mem_sp2;$/;"	m	struct:SBEncState
+mem_sw	nb_celp.h	/^   spx_mem_t *mem_sw;            \/**< Filter memory for perceptually-weighted signal *\/$/;"	m	struct:EncState
+mem_sw	sb_celp.h	/^   spx_mem_t *mem_sw;             \/**< Perceptual signal memory *\/$/;"	m	struct:SBEncState
+mem_sw_whole	nb_celp.h	/^   spx_mem_t *mem_sw_whole;      \/**< Filter memory for perceptually-weighted signal (whole frame)*\/$/;"	m	struct:EncState
+min_level	nb_celp.h	/^   spx_word16_t min_level;$/;"	m	struct:DecState
+min_pitch	nb_celp.h	/^   int    min_pitch;             \/**< Minimum pitch value allowed *\/$/;"	m	struct:EncState
+min_pitch	nb_celp.h	/^   int    min_pitch;            \/**< Minimum pitch value allowed *\/$/;"	m	struct:DecState
+mode	nb_celp.h	/^   const SpeexMode *mode;        \/**< Mode corresponding to the state *\/$/;"	m	struct:EncState
+mode	nb_celp.h	/^   const SpeexMode *mode;       \/**< Mode corresponding to the state *\/$/;"	m	struct:DecState
+mode	sb_celp.h	/^   const SpeexMode *mode;            \/**< Pointer to the mode (containing for vtable info) *\/$/;"	m	struct:SBDecState
+mode	sb_celp.h	/^   const SpeexMode *mode;         \/**< Pointer to the mode (containing for vtable info) *\/$/;"	m	struct:SBEncState
+multicomb	filters.c	/^void multicomb($/;"	f
+nbSubframes	nb_celp.h	/^   int    nbSubframes;           \/**< Number of sub-frames *\/$/;"	m	struct:EncState
+nbSubframes	nb_celp.h	/^   int    nbSubframes;          \/**< Number of sub-frames *\/$/;"	m	struct:DecState
+nbSubframes	sb_celp.h	/^   int    nbSubframes;            \/**< Number of high-band sub-frames*\/$/;"	m	struct:SBEncState
+nbSubframes	sb_celp.h	/^   int    nbSubframes;$/;"	m	struct:SBDecState
+nb_decode	nb_celp.c	/^int nb_decode(void *state, SpeexBits *bits, void *vout)$/;"	f
+nb_decode_lost	nb_celp.c	/^static void nb_decode_lost(DecState *st, spx_word16_t *out, char *stack)$/;"	f	file:
+nb_decoder_ctl	nb_celp.c	/^int nb_decoder_ctl(void *state, int request, void *ptr)$/;"	f
+nb_decoder_destroy	nb_celp.c	/^void nb_decoder_destroy(void *state)$/;"	f
+nb_decoder_init	nb_celp.c	/^void *nb_decoder_init(const SpeexMode *m)$/;"	f
+nb_encode	nb_celp.c	/^int nb_encode(void *state, void *vin, SpeexBits *bits)$/;"	f
+nb_encoder_ctl	nb_celp.c	/^int nb_encoder_ctl(void *state, int request, void *ptr)$/;"	f
+nb_encoder_destroy	nb_celp.c	/^void nb_encoder_destroy(void *state)$/;"	f
+nb_encoder_init	nb_celp.c	/^void *nb_encoder_init(const SpeexMode *m)$/;"	f
+nb_mode	modes.c	/^static const SpeexNBMode nb_mode = {$/;"	v	file:
+nb_mode	modes.h	/^   const SpeexMode *nb_mode;    \/**< Embedded narrowband mode *\/$/;"	m	struct:SpeexSBMode
+nb_mode_query	speex.c	/^int nb_mode_query(const void *mode, int request, void *ptr)$/;"	f
+nb_modes	modes.h	/^   int     nb_modes;$/;"	m	struct:SpeexSBMode
+nb_submode1	modes.c	/^static const SpeexSubmode nb_submode1 = {$/;"	v	file:
+nb_submode2	modes.c	/^static const SpeexSubmode nb_submode2 = {$/;"	v	file:
+nb_submode3	modes.c	/^static const SpeexSubmode nb_submode3 = {$/;"	v	file:
+nb_submode4	modes.c	/^static const SpeexSubmode nb_submode4 = {$/;"	v	file:
+nb_submode5	modes.c	/^static const SpeexSubmode nb_submode5 = {$/;"	v	file:
+nb_submode6	modes.c	/^static const SpeexSubmode nb_submode6 = {$/;"	v	file:
+nb_submode7	modes.c	/^static const SpeexSubmode nb_submode7 = {$/;"	v	file:
+nb_submode8	modes.c	/^static const SpeexSubmode nb_submode8 = {$/;"	v	file:
+nb_subvect	cb_search.h	/^   int     nb_subvect;$/;"	m	struct:split_cb_params
+noise_accum	vbr.h	/^   float noise_accum;$/;"	m	struct:VBRState
+noise_accum_count	vbr.h	/^   float noise_accum_count;$/;"	m	struct:VBRState
+noise_codebook_quant	cb_search.c	/^void noise_codebook_quant($/;"	f
+noise_codebook_unquant	cb_search.c	/^void noise_codebook_unquant($/;"	f
+noise_level	vbr.h	/^   float noise_level;$/;"	m	struct:VBRState
+normalize16	filters.c	/^int normalize16(const spx_sig_t *x, spx_word16_t *y, spx_sig_t max_scale, int len)$/;"	f
+ol_gain_table	nb_celp.c	/^const spx_word32_t ol_gain_table[32]={18900, 25150, 33468, 44536, 59265, 78865, 104946, 139653, 185838, 247297, 329081, 437913, 582736, 775454, 1031906, 1373169, 1827293, 2431601, 3235761, 4305867, 5729870, 7624808, 10146425, 13501971, 17967238, 23909222, 31816294, 42338330, 56340132, 74972501, 99766822, 132760927};$/;"	v
+ol_pitch	nb_celp.h	/^   int    ol_pitch;              \/**< Open-loop pitch *\/$/;"	m	struct:EncState
+ol_voiced	nb_celp.h	/^   int    ol_voiced;             \/**< Open-loop voiced\/non-voiced decision *\/$/;"	m	struct:EncState
+old_curve	nb_celp.h	/^   float *old_curve;$/;"	m	struct:EncState
+old_lsp	nb_celp.h	/^   spx_lsp_t *old_lsp;           \/**< LSPs for previous frame *\/$/;"	m	struct:EncState
+old_lsp	sb_celp.h	/^   spx_lsp_t *old_lsp;            \/**< LSPs of previous frame *\/$/;"	m	struct:SBEncState
+old_qlsp	nb_celp.h	/^   spx_lsp_t *old_qlsp;          \/**< Quantized LSPs for previous frame *\/$/;"	m	struct:EncState
+old_qlsp	nb_celp.h	/^   spx_lsp_t *old_qlsp;         \/**< Quantized LSPs for previous frame *\/$/;"	m	struct:DecState
+old_qlsp	sb_celp.h	/^   spx_lsp_t *old_qlsp;           \/**< Quantized LSPs of previous frame *\/$/;"	m	struct:SBEncState
+old_qlsp	sb_celp.h	/^   spx_lsp_t *old_qlsp;$/;"	m	struct:SBDecState
+open_loop_nbest_pitch	ltp.c	/^void open_loop_nbest_pitch(spx_word16_t *sw, int start, int end, int len, int *pitch, spx_word16_t *gain, int N, char *stack)$/;"	f
+pi_gain	nb_celp.h	/^   spx_word32_t *pi_gain;        \/**< Gain of LPC filter at theta=pi (fe\/2) *\/$/;"	m	struct:EncState
+pi_gain	nb_celp.h	/^   spx_word32_t *pi_gain;       \/**< Gain of LPC filter at theta=pi (fe\/2) *\/$/;"	m	struct:DecState
+pi_gain	sb_celp.h	/^   spx_word32_t *pi_gain;$/;"	m	struct:SBDecState
+pi_gain	sb_celp.h	/^   spx_word32_t *pi_gain;$/;"	m	struct:SBEncState
+pitch	nb_celp.h	/^   int   *pitch;$/;"	m	struct:EncState
+pitchEnd	modes.h	/^   int     pitchEnd;       \/**< Largest pitch value allowed *\/$/;"	m	struct:SpeexNBMode
+pitchStart	modes.h	/^   int     pitchStart;     \/**< Smallest pitch value allowed *\/$/;"	m	struct:SpeexNBMode
+pitch_bits	ltp.h	/^   int     pitch_bits;$/;"	m	struct:__anon1
+pitch_gain_buf	nb_celp.h	/^   spx_word16_t  pitch_gain_buf[3]; \/**< Pitch gain of last decoded frames *\/$/;"	m	struct:DecState
+pitch_gain_buf_idx	nb_celp.h	/^   int    pitch_gain_buf_idx;   \/**< Tail of the buffer *\/$/;"	m	struct:DecState
+pitch_gain_search_3tap	ltp.c	/^static spx_word32_t pitch_gain_search_3tap($/;"	f	file:
+pitch_gain_search_3tap_vq	ltp.c	/^static int pitch_gain_search_3tap_vq($/;"	f	file:
+pitch_search_3tap	ltp.c	/^int pitch_search_3tap($/;"	f
+pitch_unquant_3tap	ltp.c	/^void pitch_unquant_3tap($/;"	f
+pitch_xcorr	ltp.c	/^void pitch_xcorr(const spx_word16_t *_x, const spx_word16_t *_y, spx_word32_t *corr, int len, int nb_pitch, char *stack)$/;"	f
+plc_tuning	nb_celp.h	/^   int    plc_tuning;$/;"	m	struct:EncState
+print_vec	os_support.h	/^static inline void print_vec(float *vec, int len, char *name)$/;"	f
+psy	nb_celp.h	/^   VorbisPsy *psy;$/;"	m	struct:EncState
+psy_window	nb_celp.h	/^   float *psy_window;$/;"	m	struct:EncState
+qmf_decomp	filters.c	/^void qmf_decomp(const spx_word16_t *xx, const spx_word16_t *aa, spx_word16_t *y1, spx_word16_t *y2, int N, int M, spx_word16_t *mem, char *stack)$/;"	f
+qmf_synth	filters.c	/^void qmf_synth(const spx_word16_t *x1, const spx_word16_t *x2, const spx_word16_t *a, spx_word16_t *y, int N, int M, spx_word16_t *mem1, spx_word16_t *mem2, char *stack)$/;"	f
+quality_map	modes.h	/^   int     quality_map[11]; \/**< Mode corresponding to each quality setting *\/$/;"	m	struct:SpeexNBMode
+quality_map	modes.h	/^   int     quality_map[11]; \/**< Mode corresponding to each quality setting *\/$/;"	m	struct:SpeexSBMode
+relative_quality	nb_celp.h	/^   float  relative_quality;      \/**< Relative quality that will be needed by VBR *\/$/;"	m	struct:EncState
+relative_quality	sb_celp.h	/^   float  relative_quality;$/;"	m	struct:SBEncState
+residue_percep_zero16	filters.c	/^void residue_percep_zero16(const spx_word16_t *xx, const spx_coef_t *ak, const spx_coef_t *awk1, const spx_coef_t *awk2, spx_word16_t *y, int N, int ord, char *stack)$/;"	f
+sampling_rate	nb_celp.h	/^   spx_int32_t sampling_rate;$/;"	m	struct:DecState
+sampling_rate	nb_celp.h	/^   spx_int32_t sampling_rate;$/;"	m	struct:EncState
+sampling_rate	sb_celp.h	/^   spx_int32_t sampling_rate;$/;"	m	struct:SBDecState
+sampling_rate	sb_celp.h	/^   spx_int32_t sampling_rate;$/;"	m	struct:SBEncState
+sanitize_values32	filters.c	/^void sanitize_values32(spx_word32_t *vec, spx_word32_t min_val, spx_word32_t max_val, int len)$/;"	f
+scal_quant	vq.c	/^int scal_quant(spx_word16_t in, const spx_word16_t *boundary, int entries)$/;"	f
+scal_quant32	vq.c	/^int scal_quant32(spx_word32_t in, const spx_word32_t *boundary, int entries)$/;"	f
+seed	nb_celp.h	/^   spx_int32_t seed;            \/** Seed used for random number generation *\/$/;"	m	struct:DecState
+seed	sb_celp.h	/^   spx_int32_t seed;$/;"	m	struct:SBDecState
+shape_bits	cb_search.h	/^   int     shape_bits;$/;"	m	struct:split_cb_params
+shape_cb	cb_search.h	/^   const signed char  *shape_cb;$/;"	m	struct:split_cb_params
+shift_filt	filters.c	/^const float shift_filt[3][7] = {{-0.011915f, 0.046995f, -0.152373f, 0.614108f, 0.614108f, -0.152373f, 0.046995f},$/;"	v
+shift_filt	filters.c	/^const spx_word16_t shift_filt[3][7] = {{-390,    1540,   -4993,   20123,   20123,   -4993,    1540},$/;"	v
+signal_div	filters.c	/^void signal_div(const spx_sig_t *x, spx_sig_t *y, spx_word32_t scale, int len)$/;"	f
+signal_div	filters.c	/^void signal_div(const spx_word16_t *x, spx_word16_t *y, spx_word32_t scale, int len)$/;"	f
+signal_mul	filters.c	/^void signal_mul(const spx_sig_t *x, spx_sig_t *y, spx_word32_t scale, int len)$/;"	f
+soft_pitch	vbr.h	/^   float soft_pitch;$/;"	m	struct:VBRState
+speex_alloc	os_support.h	/^static inline void *speex_alloc (int size)$/;"	f
+speex_alloc_scratch	os_support.h	/^static inline void *speex_alloc_scratch (int size)$/;"	f
+speex_assert	os_support.h	155;"	d
+speex_bits_advance	bits.c	/^EXPORT void speex_bits_advance(SpeexBits *bits, int n)$/;"	f
+speex_bits_destroy	bits.c	/^EXPORT void speex_bits_destroy(SpeexBits *bits)$/;"	f
+speex_bits_flush	bits.c	/^static void speex_bits_flush(SpeexBits *bits)$/;"	f	file:
+speex_bits_init	bits.c	/^EXPORT void speex_bits_init(SpeexBits *bits)$/;"	f
+speex_bits_init_buffer	bits.c	/^EXPORT void speex_bits_init_buffer(SpeexBits *bits, void *buff, int buf_size)$/;"	f
+speex_bits_insert_terminator	bits.c	/^EXPORT void speex_bits_insert_terminator(SpeexBits *bits)$/;"	f
+speex_bits_nbytes	bits.c	/^EXPORT int speex_bits_nbytes(SpeexBits *bits)$/;"	f
+speex_bits_pack	bits.c	/^EXPORT void speex_bits_pack(SpeexBits *bits, int data, int nbBits)$/;"	f
+speex_bits_peek	bits.c	/^EXPORT int speex_bits_peek(SpeexBits *bits)$/;"	f
+speex_bits_peek_unsigned	bits.c	/^EXPORT unsigned int speex_bits_peek_unsigned(SpeexBits *bits, int nbBits)$/;"	f
+speex_bits_read_from	bits.c	/^EXPORT void speex_bits_read_from(SpeexBits *bits, char *chars, int len)$/;"	f
+speex_bits_read_whole_bytes	bits.c	/^EXPORT void speex_bits_read_whole_bytes(SpeexBits *bits, char *chars, int nbytes)$/;"	f
+speex_bits_remaining	bits.c	/^EXPORT int speex_bits_remaining(SpeexBits *bits)$/;"	f
+speex_bits_reset	bits.c	/^EXPORT void speex_bits_reset(SpeexBits *bits)$/;"	f
+speex_bits_rewind	bits.c	/^EXPORT void speex_bits_rewind(SpeexBits *bits)$/;"	f
+speex_bits_set_bit_buffer	bits.c	/^EXPORT void speex_bits_set_bit_buffer(SpeexBits *bits, void *buff, int buf_size)$/;"	f
+speex_bits_unpack_signed	bits.c	/^EXPORT int speex_bits_unpack_signed(SpeexBits *bits, int nbBits)$/;"	f
+speex_bits_unpack_unsigned	bits.c	/^EXPORT unsigned int speex_bits_unpack_unsigned(SpeexBits *bits, int nbBits)$/;"	f
+speex_bits_write	bits.c	/^EXPORT int speex_bits_write(SpeexBits *bits, char *chars, int max_nbytes)$/;"	f
+speex_bits_write_whole_bytes	bits.c	/^EXPORT int speex_bits_write_whole_bytes(SpeexBits *bits, char *chars, int max_nbytes)$/;"	f
+speex_callbacks	nb_celp.h	/^   SpeexCallback speex_callbacks[SPEEX_MAX_CALLBACKS];$/;"	m	struct:DecState
+speex_decode	speex.c	/^EXPORT int speex_decode(void *state, SpeexBits *bits, float *out)$/;"	f
+speex_decode_int	speex.c	/^EXPORT int speex_decode_int(void *state, SpeexBits *bits, spx_int16_t *out)$/;"	f
+speex_decode_native	speex.c	/^int speex_decode_native(void *state, SpeexBits *bits, spx_word16_t *out)$/;"	f
+speex_decoder_ctl	speex.c	/^EXPORT int speex_decoder_ctl(void *state, int request, void *ptr)$/;"	f
+speex_decoder_destroy	speex.c	/^EXPORT void speex_decoder_destroy(void *state)$/;"	f
+speex_decoder_init	speex.c	/^EXPORT void *speex_decoder_init(const SpeexMode *mode)$/;"	f
+speex_default_user_handler	speex_callbacks.c	/^EXPORT int speex_default_user_handler(SpeexBits *bits, void *state, void *data)$/;"	f
+speex_encode	speex.c	/^EXPORT int speex_encode(void *state, float *in, SpeexBits *bits)$/;"	f
+speex_encode_int	speex.c	/^EXPORT int speex_encode_int(void *state, spx_int16_t *in, SpeexBits *bits)$/;"	f
+speex_encode_native	speex.c	/^int speex_encode_native(void *state, spx_word16_t *in, SpeexBits *bits)$/;"	f
+speex_encoder_ctl	speex.c	/^EXPORT int speex_encoder_ctl(void *state, int request, void *ptr)$/;"	f
+speex_encoder_destroy	speex.c	/^EXPORT void speex_encoder_destroy(void *state)$/;"	f
+speex_encoder_init	speex.c	/^EXPORT void *speex_encoder_init(const SpeexMode *mode)$/;"	f
+speex_fatal	os_support.h	154;"	d
+speex_free	os_support.h	/^static inline void speex_free (void *ptr)$/;"	f
+speex_free_scratch	os_support.h	/^static inline void speex_free_scratch (void *ptr)$/;"	f
+speex_inband_handler	speex_callbacks.c	/^EXPORT int speex_inband_handler(SpeexBits *bits, SpeexCallback *callback_list, void *state)$/;"	f
+speex_lib_ctl	speex.c	/^EXPORT int speex_lib_ctl(int request, void *ptr)$/;"	f
+speex_mode_query	modes.c	/^EXPORT int speex_mode_query(const SpeexMode *mode, int request, void *ptr)$/;"	f
+speex_nb_mode	modes.c	/^EXPORT const SpeexMode speex_nb_mode = {$/;"	v
+speex_notify	os_support.h	/^static inline void speex_notify(const char *str)$/;"	f
+speex_rand	math_approx.h	/^static inline spx_word16_t speex_rand(spx_word16_t std, spx_int32_t *seed)$/;"	f
+speex_realloc	os_support.h	/^static inline void *speex_realloc (void *ptr, int size)$/;"	f
+speex_std_char_handler	speex_callbacks.c	/^EXPORT int speex_std_char_handler(SpeexBits *bits, void *state, void *data)$/;"	f
+speex_std_enh_request_handler	speex_callbacks.c	/^EXPORT int speex_std_enh_request_handler(SpeexBits *bits, void *state, void *data)$/;"	f
+speex_std_high_mode_request_handler	speex_callbacks.c	/^EXPORT int speex_std_high_mode_request_handler(SpeexBits *bits, void *state, void *data)$/;"	f
+speex_std_low_mode_request_handler	speex_callbacks.c	/^EXPORT int speex_std_low_mode_request_handler(SpeexBits *bits, void *state, void *data)$/;"	f
+speex_std_mode_request_handler	speex_callbacks.c	/^EXPORT int speex_std_mode_request_handler(SpeexBits *bits, void *state, void *data)$/;"	f
+speex_std_vbr_quality_request_handler	speex_callbacks.c	/^EXPORT int speex_std_vbr_quality_request_handler(SpeexBits *bits, void *state, void *data)$/;"	f
+speex_std_vbr_request_handler	speex_callbacks.c	/^EXPORT int speex_std_vbr_request_handler(SpeexBits *bits, void *state, void *data)$/;"	f
+speex_warning	os_support.h	/^static inline void speex_warning(const char *str)$/;"	f
+speex_warning_int	os_support.h	/^static inline void speex_warning_int(const char *str, int val)$/;"	f
+split_cb_nb	modes.c	/^static const split_cb_params split_cb_nb = {$/;"	v	file:
+split_cb_nb_lbr	modes.c	/^static const split_cb_params split_cb_nb_lbr = {$/;"	v	file:
+split_cb_nb_med	modes.c	/^static const split_cb_params split_cb_nb_med = {$/;"	v	file:
+split_cb_nb_ulbr	modes.c	/^static const split_cb_params split_cb_nb_ulbr = {$/;"	v	file:
+split_cb_nb_vlbr	modes.c	/^static const split_cb_params split_cb_nb_vlbr = {$/;"	v	file:
+split_cb_params	cb_search.h	/^typedef struct split_cb_params {$/;"	s
+split_cb_params	cb_search.h	/^} split_cb_params;$/;"	t	typeref:struct:split_cb_params
+split_cb_sb	modes.c	/^static const split_cb_params split_cb_sb = {$/;"	v	file:
+split_cb_search_shape_sign	cb_search.c	/^void split_cb_search_shape_sign($/;"	f
+split_cb_search_shape_sign_N1	cb_search.c	/^static void split_cb_search_shape_sign_N1($/;"	f	file:
+split_cb_shape_sign_unquant	cb_search.c	/^void split_cb_shape_sign_unquant($/;"	f
+spx_acos	math_approx.h	/^static inline spx_word16_t spx_acos(spx_word16_t x)$/;"	f
+spx_acos	math_approx.h	43;"	d
+spx_atan	math_approx.h	/^static inline spx_word16_t spx_atan(spx_word32_t x)$/;"	f
+spx_atan	math_approx.h	46;"	d
+spx_atan01	math_approx.h	/^static inline spx_word16_t spx_atan01(spx_word16_t x)$/;"	f
+spx_coef_t	arch.h	/^typedef float spx_coef_t;$/;"	t
+spx_coef_t	arch.h	/^typedef spx_word16_t spx_coef_t;$/;"	t
+spx_cos	math_approx.h	/^static inline spx_word16_t spx_cos(spx_word16_t x)$/;"	f
+spx_cos_norm	math_approx.h	/^static inline spx_word16_t spx_cos_norm(spx_word32_t x)$/;"	f
+spx_cos_norm	math_approx.h	45;"	d
+spx_exp	math_approx.h	/^static inline spx_word32_t spx_exp(spx_word16_t x)$/;"	f
+spx_exp	math_approx.h	44;"	d
+spx_exp2	math_approx.h	/^static inline spx_word32_t spx_exp2(spx_word16_t x)$/;"	f
+spx_ilog2	math_approx.h	/^static inline spx_int16_t spx_ilog2(spx_uint32_t x)$/;"	f
+spx_ilog4	math_approx.h	/^static inline spx_int16_t spx_ilog4(spx_uint32_t x)$/;"	f
+spx_lsp_t	arch.h	/^typedef float spx_lsp_t;$/;"	t
+spx_lsp_t	arch.h	/^typedef spx_word16_t spx_lsp_t;$/;"	t
+spx_mem_t	arch.h	/^typedef float spx_mem_t;$/;"	t
+spx_mem_t	arch.h	/^typedef spx_word32_t spx_mem_t;$/;"	t
+spx_mips	modes.c	/^long long spx_mips=0;$/;"	v
+spx_sig_t	arch.h	/^typedef float spx_sig_t;$/;"	t
+spx_sig_t	arch.h	/^typedef spx_word32_t spx_sig_t;$/;"	t
+spx_sqrt	math_approx.h	/^static inline spx_word16_t spx_sqrt(spx_word32_t x)$/;"	f
+spx_sqrt	math_approx.h	42;"	d
+spx_word16_t	arch.h	/^typedef float spx_word16_t;$/;"	t
+spx_word16_t	arch.h	/^typedef spx_int16_t spx_word16_t;$/;"	t
+spx_word32_t	arch.h	/^typedef float spx_word32_t;$/;"	t
+spx_word32_t	arch.h	/^typedef spx_int32_t   spx_word32_t;$/;"	t
+sqr	nb_celp.c	109;"	d	file:
+sqr	vbr.c	43;"	d	file:
+st_low	sb_celp.h	/^   void *st_low;                  \/**< State of the low-band (narrowband) encoder *\/$/;"	m	struct:SBEncState
+st_low	sb_celp.h	/^   void *st_low;               \/**< State of the low-band (narrowband) encoder *\/$/;"	m	struct:SBDecState
+stack	nb_celp.h	/^   char  *stack;                 \/**< Pseudo-stack allocation for temporary memory *\/$/;"	m	struct:EncState
+stack	nb_celp.h	/^   char  *stack;                \/**< Pseudo-stack allocation for temporary memory *\/$/;"	m	struct:DecState
+stack	sb_celp.h	/^   char  *stack;                  \/**< Temporary allocation stack *\/$/;"	m	struct:SBEncState
+stack	sb_celp.h	/^   char  *stack;$/;"	m	struct:SBDecState
+subframeSize	modes.h	/^   int     subframeSize;   \/**< Size of sub-frames used for encoding *\/$/;"	m	struct:SpeexNBMode
+subframeSize	modes.h	/^   int     subframeSize;  \/**< Size of sub-frames used for encoding *\/$/;"	m	struct:SpeexSBMode
+subframeSize	nb_celp.h	/^   int    subframeSize;          \/**< Size of sub-frames *\/$/;"	m	struct:EncState
+subframeSize	nb_celp.h	/^   int    subframeSize;         \/**< Size of sub-frames *\/$/;"	m	struct:DecState
+subframeSize	sb_celp.h	/^   int    subframeSize;           \/**< Length of high-band sub-frames*\/$/;"	m	struct:SBEncState
+subframeSize	sb_celp.h	/^   int    subframeSize;$/;"	m	struct:SBDecState
+submodeID	nb_celp.h	/^   int    submodeID;             \/**< Activated sub-mode *\/$/;"	m	struct:EncState
+submodeID	nb_celp.h	/^   int    submodeID;            \/**< Activated sub-mode *\/$/;"	m	struct:DecState
+submodeID	sb_celp.h	/^   int    submodeID;$/;"	m	struct:SBDecState
+submodeID	sb_celp.h	/^   int    submodeID;$/;"	m	struct:SBEncState
+submodeSelect	nb_celp.h	/^   int    submodeSelect;         \/**< Mode chosen by the user (may differ from submodeID if VAD is on) *\/$/;"	m	struct:EncState
+submodeSelect	sb_celp.h	/^   int    submodeSelect;$/;"	m	struct:SBEncState
+submodes	modes.h	/^   const SpeexSubmode *submodes[NB_SUBMODES]; \/**< Sub-mode data for the mode *\/$/;"	m	struct:SpeexNBMode
+submodes	modes.h	/^   const SpeexSubmode *submodes[SB_SUBMODES]; \/**< Sub-mode data for the mode *\/$/;"	m	struct:SpeexSBMode
+submodes	nb_celp.h	/^   const SpeexSubmode * const *submodes; \/**< Sub-mode data *\/$/;"	m	struct:DecState
+submodes	nb_celp.h	/^   const SpeexSubmode * const *submodes; \/**< Sub-mode data *\/$/;"	m	struct:EncState
+submodes	sb_celp.h	/^   const SpeexSubmode * const *submodes;$/;"	m	struct:SBDecState
+submodes	sb_celp.h	/^   const SpeexSubmode * const *submodes;$/;"	m	struct:SBEncState
+subvect_size	cb_search.h	/^   int     subvect_size;$/;"	m	struct:split_cb_params
+sw	nb_celp.h	/^   spx_word16_t *sw;             \/**< Start of weighted signal frame *\/$/;"	m	struct:EncState
+swBuf	nb_celp.h	/^   spx_word16_t *swBuf;          \/**< Weighted signal buffer *\/$/;"	m	struct:EncState
+syn_percep_zero16	filters.c	/^void syn_percep_zero16(const spx_word16_t *xx, const spx_coef_t *ak, const spx_coef_t *awk1, const spx_coef_t *awk2, spx_word16_t *y, int N, int ord, char *stack)$/;"	f
+target_update	cb_search.c	/^static inline void target_update(spx_word16_t *t, spx_word16_t g, spx_word16_t *r, int len)$/;"	f	file:
+user_callback	nb_celp.h	/^   SpeexCallback user_callback;$/;"	m	struct:DecState
+vad_enabled	nb_celp.h	/^   int    vad_enabled;           \/**< 1 for enabling VAD, 0 otherwise *\/$/;"	m	struct:EncState
+vad_enabled	sb_celp.h	/^   int    vad_enabled;            \/**< 1 for enabling VAD, 0 otherwise *\/$/;"	m	struct:SBEncState
+vbr	nb_celp.h	/^   VBRState *vbr;                \/**< State of the VBR data *\/$/;"	m	struct:EncState
+vbr_analysis	vbr.c	/^float vbr_analysis(VBRState *vbr, spx_word16_t *sig, int len, int pitch, float pitch_coef)$/;"	f
+vbr_destroy	vbr.c	/^void vbr_destroy(VBRState *vbr)$/;"	f
+vbr_enabled	nb_celp.h	/^   spx_int32_t vbr_enabled;      \/**< 1 for enabling VBR, 0 otherwise *\/$/;"	m	struct:EncState
+vbr_enabled	sb_celp.h	/^   int    vbr_enabled;            \/**< 1 for enabling VBR, 0 otherwise *\/$/;"	m	struct:SBEncState
+vbr_hb_thresh	vbr.c	/^const float vbr_hb_thresh[5][11]={$/;"	v
+vbr_init	vbr.c	/^void vbr_init(VBRState *vbr)$/;"	f
+vbr_max	nb_celp.h	/^   spx_int32_t vbr_max;          \/**< Max bit-rate allowed in VBR mode *\/$/;"	m	struct:EncState
+vbr_max	sb_celp.h	/^   spx_int32_t vbr_max;           \/**< Max bit-rate allowed in VBR mode (total) *\/$/;"	m	struct:SBEncState
+vbr_max_high	sb_celp.h	/^   spx_int32_t vbr_max_high;      \/**< Max bit-rate allowed in VBR mode for the high-band *\/$/;"	m	struct:SBEncState
+vbr_nb_thresh	vbr.c	/^const float vbr_nb_thresh[9][11]={$/;"	v
+vbr_quality	nb_celp.h	/^   float  vbr_quality;           \/**< Quality setting for VBR encoding *\/$/;"	m	struct:EncState
+vbr_quality	sb_celp.h	/^   float  vbr_quality;            \/**< Quality setting for VBR encoding *\/$/;"	m	struct:SBEncState
+vbr_thresh	modes.h	/^   const float (*vbr_thresh)[11];$/;"	m	struct:SpeexSBMode
+vbr_uhb_thresh	vbr.c	/^const float vbr_uhb_thresh[2][11]={$/;"	v
+voc_m1	nb_celp.h	/^   spx_word16_t  voc_m1;$/;"	m	struct:DecState
+voc_m2	nb_celp.h	/^   spx_word32_t  voc_m2;$/;"	m	struct:DecState
+voc_mean	nb_celp.h	/^   spx_word16_t  voc_mean;$/;"	m	struct:DecState
+voc_offset	nb_celp.h	/^   int    voc_offset;$/;"	m	struct:DecState
+vq_nbest	vq.c	/^void vq_nbest(spx_word16_t *in, const spx_word16_t *codebook, int len, int entries, spx_word32_t *E, int N, int *nbest, spx_word32_t *best_dist, char *stack)$/;"	f
+vq_nbest_sign	vq.c	/^void vq_nbest_sign(spx_word16_t *in, const spx_word16_t *codebook, int len, int entries, spx_word32_t *E, int N, int *nbest, spx_word32_t *best_dist, char *stack)$/;"	f
+wb_skip_table	nb_celp.c	/^static const int wb_skip_table[8] = {0, 36, 112, 192, 352, 0, 0, 0};$/;"	v	file:
+winBuf	nb_celp.h	/^   spx_word16_t *winBuf;         \/**< Input buffer (original signal) *\/$/;"	m	struct:EncState
+window	nb_celp.h	/^   const spx_word16_t *window;   \/**< Temporary (Hanning) window *\/$/;"	m	struct:EncState
+window	sb_celp.h	/^   const spx_word16_t *window;    \/**< LPC analysis window *\/$/;"	m	struct:SBEncState
+windowSize	nb_celp.h	/^   int    windowSize;            \/**< Analysis (LPC) window length *\/$/;"	m	struct:EncState
+windowSize	sb_celp.h	/^   int    windowSize;             \/**< Length of high-band LPC window*\/$/;"	m	struct:SBEncState
