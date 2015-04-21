@@ -67,7 +67,7 @@ public class Speex  {
 	 */
 	public native int encode(short lin[], int offset, byte encoded[], int size);
 	/**
-	 * 关闭编解码对象
+	 * 关闭编解码对象释放内存
 	 */
 	public native void close();
 	
