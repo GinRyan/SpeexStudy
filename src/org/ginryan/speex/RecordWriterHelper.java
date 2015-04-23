@@ -8,6 +8,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.channels.FileChannel;
 
+import android.util.Log;
+
 /**
  * 录音文件写入辅助类
  * 
@@ -35,12 +37,13 @@ public class RecordWriterHelper {
 	 * 输出路径
 	 */
 	private String recordIn;
+	private int bitDepth;
 
-	public RecordWriterHelper(int channels, int bufferSize,
-			long sampleRateInHz) {
+	public RecordWriterHelper(int channels, int bufferSize, long sampleRateInHz, int bitDepth) {
 		this.channels = channels;
 		this.bufferSizeInShorts = bufferSize;
 		this.sampleRateInHz = sampleRateInHz;
+		this.bitDepth = bitDepth;
 	}
 
 	/**
@@ -69,28 +72,30 @@ public class RecordWriterHelper {
 	public void copyWaveFile(String outFilename) {
 		FileInputStream in = null;
 		FileOutputStream out = null;
-		long totalDataLen = totalAudioLength + 36;
-		long longSampleRate = sampleRateInHz;
-		long byteRate = 16 * sampleRateInHz * channels / 8;
+		long byteRate = bitDepth * sampleRateInHz * channels / 8;
+		
+		Log.d("debug_audio", "位深:" + bitDepth);
+		Log.d("debug_audio", "采样率:" + sampleRateInHz);
+		Log.d("debug_audio", "声道数:" + channels);
+		Log.d("debug_audio", "最终比特率:" + byteRate);
+		
 		// short[] data = new short[bufferSizeInShorts];
 		try {
 			in = new FileInputStream(recordIn);
 			out = new FileOutputStream(outFilename);
 			totalAudioLength = in.getChannel().size();
+			long totalDataLen = totalAudioLength + 36;
 			totalDataLen = totalAudioLength + 36;
-			writePcmMetaDataAsHeader(out, totalAudioLength, totalDataLen,
-					longSampleRate, channels, byteRate);
-			FileChannel inChannel = in.getChannel();
-			FileChannel outChannel = out.getChannel();
-			outChannel.transferFrom(inChannel, 44, totalAudioLength);
-
+			writePcmMetaDataAsHeader(out, totalAudioLength, totalDataLen,sampleRateInHz, channels, byteRate);
 			// inChannel.transferTo(0, totalAudioLength, outChannel);
-			// while (in.read(data) != -1) {
-			// out.write(data);
-			// }
+			byte[] transBuffer = new byte[1024];
+			int length = 0;
+			while ((length = in.read(transBuffer)) != -1) {
+				out.write(transBuffer, 0, length);
+			}
 			in.close();
 			out.close();
-			new File(outFilename).delete();
+			new File(recordIn).delete();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -102,8 +107,7 @@ public class RecordWriterHelper {
 	 * 这里提供一个头信息。作为PCM文件头中的元数据，指明该文件的总时长，总数据长度，采样率，声道，比特率等等数据。 PCM文件头必备。
 	 * 
 	 */
-	public void writePcmMetaDataAsHeader(FileOutputStream out,
-			long totalAudioLength, long totalDataLength, long longSampleRate,
+	public void writePcmMetaDataAsHeader(FileOutputStream out,long totalAudioLength, long totalDataLength, long longSampleRate,
 			int channels, long byteRate) throws IOException {
 
 		byte[] header = new byte[44];

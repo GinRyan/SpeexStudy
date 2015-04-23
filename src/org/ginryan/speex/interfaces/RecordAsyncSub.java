@@ -37,7 +37,7 @@ public abstract class RecordAsyncSub extends AsyncTask<Void, Integer, Void> {
 	}
 
 	public void exec() {
-		isRunning = false;
+		isRunning = true;
 		AsyncTaskCompat.executeParallel(this);
 	}
 

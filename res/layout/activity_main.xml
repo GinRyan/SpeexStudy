@@ -8,9 +8,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="org.ginryan.speex.MainActivity" >
 
-    <TextView
+    <Button
+        android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="Start Recording" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start"
+        android:text="Stop Recording" />
 
 </RelativeLayout>
