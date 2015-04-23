@@ -62,7 +62,6 @@ JNIEXPORT jint JNICALL Java_org_ginryan_speex_clib_Speex_encode
 				     enc_frame_size);
 	env->SetByteArrayRegion(encoded, 0, tot_bytes,
 				output_buffer);
-
         return (jint)tot_bytes;
 }
 
