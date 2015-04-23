@@ -66,8 +66,8 @@ public class RecordingHelper extends RecordAsyncSub implements Controller {
 		setOutputSteam(mRecordWriterHelper.setFileOutput(outputPath + ".~tmp"));
 		audioRecord.startRecording();
 		while (isRunning()) {
-			audioRecord.read(rawDataBufferCache.buffer, 0, bufferSize);
-			for (int i = 0; i < rawDataBufferCache.length; i++) {
+			rawDataBufferCache.length = audioRecord.read(rawDataBufferCache.buffer, 0, bufferSize);
+			for (int i = 0; i < rawDataBufferCache.buffer.length; i++) {
 				outputStream.writeShort(rawDataBufferCache.buffer[i]);
 			}
 			outputStream.flush();
