@@ -43,7 +43,7 @@ public class TestAudioRecord extends Activity {
     //AudioName裸音频数据文件  
     private static final String AudioName = "/sdcard/love.raw";  
     //NewAudioName可播放的音频文件  
-    private static final String NewAudioName = "/sdcard/new.wav";  
+    private static final String NewAudioName = "/sdcard/_GoodRecorder_" +System.currentTimeMillis()+".wav";  
 
     public void onCreate(Bundle savedInstanceState) {  
         super.onCreate(savedInstanceState);  
