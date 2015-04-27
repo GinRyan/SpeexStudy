@@ -3,7 +3,11 @@ package org.ginryan.speex.clib;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+/**
+ * Speex编解码本地函数代理
+ * 
+ * @author Liang
+ */
 public class Speex  {
 
 	/**

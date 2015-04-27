@@ -3,7 +3,7 @@ package org.ginryan.speex;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
-import org.ginryan.speex.WritingThread.OnFinishedRunning;
+import org.ginryan.speex.RawDataWritingThread.OnFinishedRunning;
 import org.ginryan.speex.interfaces.Controller;
 import org.ginryan.speex.interfaces.RecordAsyncSub;
 
@@ -64,7 +64,7 @@ public class RecordingHelper extends RecordAsyncSub implements Controller {
 				sampleRateInHz, bitDepth);
 	}
 
-	WritingThread w = new WritingThread();
+	RawDataWritingThread w = new RawDataWritingThread();
 
 	@Override
 	protected void doAsync() throws IOException {
@@ -78,7 +78,6 @@ public class RecordingHelper extends RecordAsyncSub implements Controller {
 				try {
 					outputStream.close();
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
@@ -90,6 +89,16 @@ public class RecordingHelper extends RecordAsyncSub implements Controller {
 		int readSize = 0;
 		while (isRunning()) {
 			readSize = audioRecord.read(buffer, 0, bufferSize);
+			if (readSize == AudioRecord.ERROR_INVALID_OPERATION) {
+				throw new IllegalStateException(
+						"read() returned AudioRecord.ERROR_INVALID_OPERATION");
+			} else if (readSize == AudioRecord.ERROR_BAD_VALUE) {
+				throw new IllegalStateException(
+						"read() returned AudioRecord.ERROR_BAD_VALUE");
+			} else if (readSize == AudioRecord.ERROR_INVALID_OPERATION) {
+				throw new IllegalStateException(
+						"read() returned AudioRecord.ERROR_INVALID_OPERATION");
+			}
 			if (readSize != AudioRecord.ERROR_INVALID_OPERATION) {
 				w.send(buffer,readSize);
 				// for (int i = 0; i < buffer.length; i++) {

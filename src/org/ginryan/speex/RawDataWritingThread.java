@@ -1,14 +1,8 @@
 package org.ginryan.speex;
 
-import android.annotation.SuppressLint;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.util.Collections;
-import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * 写入处理队列
@@ -16,13 +10,13 @@ import java.util.concurrent.LinkedBlockingQueue;
  * @author Liang
  *
  */
-public class WritingThread extends Thread {
+public class RawDataWritingThread extends Thread {
 	LinkedList<RawData> rawDataQueue = null;
 	Object flag = new Object();
 	boolean isRunning = false;
 	DataOutputStream output = null;
 
-	public WritingThread() {
+	public RawDataWritingThread() {
 		rawDataQueue = new LinkedList<RawData>();
 	}
 
@@ -41,9 +35,10 @@ public class WritingThread extends Thread {
 	@Override
 	public void run() {
 		super.run();
-		synchronized (runningLock) {
-			while (isRunning) {
-				try {
+
+		while (isRunning) {
+			try {
+				synchronized (runningLock) {
 					RawData raw = rawDataQueue.get(0);
 					rawDataQueue.remove(0);
 					if (raw != null) {
@@ -54,13 +49,24 @@ public class WritingThread extends Thread {
 						}
 						output.flush();
 					}
-				} catch (IOException e) {
-					e.printStackTrace();
-				} catch (Exception e) {
-					e.printStackTrace();
 				}
+			} catch (IOException e) {
+				try {
+					Thread.sleep(20);
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				}
+				e.printStackTrace();
+			} catch (Exception e) {
+				try {
+					Thread.sleep(20);
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				}
+				e.printStackTrace();
 			}
 		}
+
 		if (onFinishedRunning != null) {
 			onFinishedRunning.onFinished();
 		}
@@ -87,7 +93,7 @@ public class WritingThread extends Thread {
 	 * 
 	 * @param buffer
 	 *            缓冲区
-	 * @param readSize 
+	 * @param readSize
 	 */
 	public void send(short[] buffer, int readSize) {
 		RawData raw = new RawData();
@@ -101,10 +107,10 @@ public class WritingThread extends Thread {
 	}
 
 	public void setRunning(boolean isRunning) {
-			this.isRunning = isRunning;
+		this.isRunning = isRunning;
 	}
 
 	public boolean isRunning() {
-			return isRunning;
+		return isRunning;
 	}
 }
